@@ -6,6 +6,9 @@ RUN apt-get install -y \
       iproute2 \
       bind9-dnsutils \
       libcap2-bin \
-      kubernetes-client
+      curl \
+      wget \
+      kubernetes-client \
+      vim
       
 CMD [ "sleep infinity" ]
